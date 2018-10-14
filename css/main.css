@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Patua+One");
+h1 {
+  font-family: Merriweather;
+  color: white;
+}
+
+body {
+  background-color: black;
+  background-image: url("../images/folk-pattern-black.png");
+  font-family: "Patua One";
+  color: white;
+}
+
+.hero-image {
+  background: url("../images/josie-pussycats.jpg") no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 100px;
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  margin: 50px auto;
+}
+
+.concert {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.concert:hover {
+  color: pink;
+}
+
+.card {
+  color: black;
+  text-align: center;
+}
+
+.list {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.list li {
+  display: inline-block;
+  text-align: center;
+  padding-right: 25px;
+  margin: auto;
+}
+
+.list li:hover {
+  color: pink;
+}
+
+.list-inline-item {
+  font-size: 25px;
+}

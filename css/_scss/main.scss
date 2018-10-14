@@ -1,0 +1,72 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+
+// Your Google font here
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Patua+One');
+
+
+// Your CSS/SCSS below this line
+$padding: 100px;
+
+h1 {
+  font-family: $font_1;
+  color: $text-color;
+}
+
+body {
+  background-color: $primary-color;
+  background-image: $background-image;
+  font-family: $font_2;
+  color: $text-color;
+}
+
+.hero-image {
+  background: $hero-image no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+  padding: $padding;
+}
+
+.opacity {
+  background-color: $fade-color;
+}
+
+.header {
+  margin: $padding - 50 auto;
+}
+
+.concert {
+  text-align: center;
+  padding-bottom: $padding - 50;
+        &:hover {
+          color: $hover-color;
+        }
+}
+
+.card {
+  color: $primary-color;
+  text-align: center;
+}
+
+.list {
+  text-align: center;
+  font-size: 40px;
+  margin-top: $padding - 80;
+
+      li {
+        display: inline-block;
+        text-align: center;
+        padding-right: $padding - 75;
+        margin: auto;
+          &:hover {
+            color: $hover-color;
+          }
+      }
+}
+
+.list-inline-item {
+  font-size: 25px;
+}
